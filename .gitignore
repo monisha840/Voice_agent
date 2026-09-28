@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local config (no secrets in it today, but it's where they'd go)
+.env
+
+# Model weights / voices (downloaded, not source - Moonshine, Piper, IndicConformer, etc.)
+models/
+*.onnx
+*.onnx.json
+*.gguf
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+
+# Test / scratch audio produced while developing STT and TTS
+*.wav
