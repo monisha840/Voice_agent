@@ -75,18 +75,25 @@ transport_params = {
 # ---------------------------------------------------------------------------
 # Preflight: fail fast with a clear message instead of a silent bot.
 # ---------------------------------------------------------------------------
+class PreflightError(RuntimeError):
+    """Ollama or Piper is unreachable or misconfigured; the bot cannot run."""
+
+
 async def preflight(session: aiohttp.ClientSession) -> None:
     # Ollama: is the server up and is the model pulled?
     tags_url = OLLAMA_BASE_URL.removesuffix("/v1") + "/api/tags"
     try:
         async with session.get(tags_url, timeout=aiohttp.ClientTimeout(total=5)) as r:
             names = [m["name"] for m in (await r.json()).get("models", [])]
-        if OLLAMA_MODEL not in names:
-            logger.error(f"Ollama is up but '{OLLAMA_MODEL}' is not pulled. Have: {names}")
-        else:
-            logger.info(f"Preflight OK: Ollama has {OLLAMA_MODEL}")
     except Exception as e:  # noqa: BLE001
-        logger.error(f"Preflight FAILED: cannot reach Ollama at {tags_url}: {e}")
+        msg = f"Preflight FAILED: cannot reach Ollama at {tags_url}: {e}"
+        logger.error(msg)
+        raise PreflightError(msg) from e
+    if OLLAMA_MODEL not in names:
+        msg = f"Preflight FAILED: Ollama is up but '{OLLAMA_MODEL}' is not pulled. Have: {names}"
+        logger.error(msg)
+        raise PreflightError(msg)
+    logger.info(f"Preflight OK: Ollama has {OLLAMA_MODEL}")
 
     # Piper: does a tiny synthesis return a WAV?
     try:
@@ -95,16 +102,20 @@ async def preflight(session: aiohttp.ClientSession) -> None:
             json={"text": "ok", "voice": PIPER_VOICE},
             timeout=aiohttp.ClientTimeout(total=15),
         ) as r:
+            status = r.status
             body = await r.read()
-        if r.status == 200 and body[:4] == b"RIFF":
-            logger.info(f"Preflight OK: Piper at {PIPER_URL} (voice {PIPER_VOICE})")
-        else:
-            logger.error(
-                f"Preflight FAILED: Piper at {PIPER_URL} returned HTTP {r.status}. "
-                "piper-tts 1.8.0 expects POST /synthesize - check PIPER_URL in .env."
-            )
     except Exception as e:  # noqa: BLE001
-        logger.error(f"Preflight FAILED: cannot reach Piper at {PIPER_URL}: {e} (is the WSL2 server running?)")
+        msg = f"Preflight FAILED: cannot reach Piper at {PIPER_URL}: {e} (is the WSL2 server running?)"
+        logger.error(msg)
+        raise PreflightError(msg) from e
+    if status != 200 or body[:4] != b"RIFF":
+        msg = (
+            f"Preflight FAILED: Piper at {PIPER_URL} returned HTTP {status}. "
+            "piper-tts 1.8.0 expects POST /synthesize - check PIPER_URL in .env."
+        )
+        logger.error(msg)
+        raise PreflightError(msg)
+    logger.info(f"Preflight OK: Piper at {PIPER_URL} (voice {PIPER_VOICE})")
 
 
 # ---------------------------------------------------------------------------

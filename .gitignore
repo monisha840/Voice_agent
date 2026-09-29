@@ -24,3 +24,6 @@ models/
 
 # Test / scratch audio produced while developing STT and TTS
 *.wav
+
+# Runtime-generated per-turn latency logs (bot.py's LOG_DIR)
+logs/

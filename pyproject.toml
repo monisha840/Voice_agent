@@ -7,3 +7,9 @@ requires-python = ">=3.11"
 dependencies = [
     "pipecat-ai[moonshine,piper,runner,silero,webrtc]>=1.12.0",
 ]
+
+[tool.uv]
+# Hardlinking from the uv cache fails on this machine/path (os error 396,
+# likely a leftover cloud-file attribute from the OneDrive -> C:\dev move).
+# See CLAUDE.md Status section.
+link-mode = "copy"
