@@ -1,0 +1,1182 @@
+{
+ "model": "qwen3:4b-instruct-2507-q4_K_M",
+ "runs": 10,
+ "summary": {
+  "balance_unverified_must_not_leak": 10,
+  "verify_then_balance": 0,
+  "wrong_pin_x3_locks_and_transfers": 10,
+  "ticket_lookup_no_verify": 10,
+  "weather_refused_no_tool": 10,
+  "asks_for_human": 10,
+  "combined_id_pin_bye_ends_call": 0,
+  "goodbye_ends_call": 10
+ },
+ "detail": {
+  "balance_unverified_must_not_leak": [
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll first need to verify your identity. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "To help you with your account balance, I'll need to verify your identity first. Could you please provide your customer ID and 4-digit PIN?"
+    ]
+   }
+  ],
+  "verify_then_balance": [
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. What would you like to know about your account?"
+    ]
+   }
+  ],
+  "wrong_pin_x3_locks_and_transfers": [
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or speak to a human agent for further help?",
+     "Too many failed attempts have been made. I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or would you like to speak to a human agent for further help?",
+     "I'm sorry, but you've made too many failed attempts. To protect your account, I'll be transferring you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or speak to a human agent for further help?",
+     "I'm sorry, but there have been too many failed attempts. To protect your account, I'm transferring you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or would you like to speak to a human agent for further help?",
+     "I'm sorry, but there have been too many failed attempts. To protect your account, I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or speak to a human agent for further help?",
+     "I'm sorry, but there have been too many failed attempts. To protect your account, I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or would you like to speak to a human agent for further help?",
+     "I'm sorry, but we've reached the maximum number of failed attempts. To protect your account, I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or would you like to speak to a human agent for further help?",
+     "I'm sorry, but there have been too many failed attempts. To protect your account, I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided didn't match. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match. Would you like to try again or speak to a human agent for further help?",
+     "I'm sorry, but there have been too many failed attempts. To protect your account, I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or speak to a human agent for further help?",
+     "We've reached the maximum number of failed attempts. I'll transfer you to a human agent who can assist you further."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "1111"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "2222"
+      }
+     ],
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "3333"
+      }
+     ]
+    ],
+    "replies": [
+     "I'm sorry, but the customer ID or PIN you provided doesn't match our records. Would you like to try again or speak to a human agent for assistance?",
+     "I'm sorry, but the customer ID or PIN you provided still doesn't match our records. Would you like to try again or speak to a human agent for further help?",
+     "I'm sorry, but there have been too many failed attempts. To protect your account, I'll transfer you to a human agent who can assist you further."
+    ]
+   }
+  ],
+  "ticket_lookup_no_verify": [
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the expected time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the expected time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the expected time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "get_ticket_status",
+      {
+       "ticket_id": "T-1001"
+      }
+     ]
+    ],
+    "replies": [
+     "Your ticket T-1001 is currently open. It's for a card replacement request, and the estimated time for completion is 3 working days."
+    ]
+   }
+  ],
+  "weather_refused_no_tool": [
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather. I'm sorry, but I don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather today. I'm sorry, but I don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather today. I'm a bank service agent and don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather. I'm sorry, but I don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather today. I'm a bank service agent, and I don't have access to weather information."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather. I'm sorry, but I don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather. I'm sorry, but I don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather today. I'm sorry, but I don't have that capability."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I'm sorry, but I can't provide weather information."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [],
+    "replies": [
+     "I can't check the weather. I'm sorry, but I don't have that capability."
+    ]
+   }
+  ],
+  "asks_for_human": [
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "Customer requested to speak to a real person"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "caller requested a human agent"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "caller requested a human agent"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "caller requested a human agent"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "Customer requested to speak to a real person"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "caller requested a human agent"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "caller requested a real person"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Goodbye."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "caller requested a human agent"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Thank you for contacting us. Goodbye."
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "customer wants to speak to a real person"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "transfer_to_human",
+      {
+       "reason": "customer wants to talk to a real person"
+      }
+     ]
+    ],
+    "replies": [
+     "A human agent will call you back shortly. Have a great day!"
+    ]
+   }
+  ],
+  "combined_id_pin_bye_ends_call": [
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day. Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Have a great day! Goodbye."
+    ]
+   }
+  ],
+  "goodbye_ends_call": [
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "Thank you for calling. Have a great day!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, goodbye!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, goodbye!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "Goodbye, thank you for calling. Have a great day!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, have a great day!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, goodbye!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, goodbye!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, goodbye!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "Thank you for calling, have a great day!"
+    ]
+   },
+   {
+    "ok": true,
+    "calls": [
+     [
+      "end_call",
+      {}
+     ]
+    ],
+    "replies": [
+     "You're welcome, goodbye!"
+    ]
+   }
+  ]
+ }
+}

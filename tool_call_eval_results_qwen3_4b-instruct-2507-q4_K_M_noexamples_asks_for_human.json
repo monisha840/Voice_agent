@@ -1,0 +1,81 @@
+{
+ "model": "qwen3:4b-instruct-2507-q4_K_M",
+ "runs": 10,
+ "summary": {
+  "asks_for_human": 0
+ },
+ "detail": {
+  "asks_for_human": [
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'd be happy to transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'd be happy to transfer you to a human agent right now."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "I'll transfer you to a human agent right away."
+    ]
+   }
+  ]
+ }
+}

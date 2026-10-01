@@ -1,0 +1,161 @@
+{
+ "model": "qwen3:4b-instruct-2507-q4_K_M",
+ "runs": 10,
+ "summary": {
+  "combined_id_pin_bye_ends_call": 0
+ },
+ "detail": {
+  "combined_id_pin_bye_ends_call": [
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [
+     [
+      "verify_customer",
+      {
+       "customer_id": "1001",
+       "pin": "4321"
+      }
+     ]
+    ],
+    "replies": [
+     "Thank you, Priya. Your identity has been verified. How can I assist you today?"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model": "qwen3:4b-instruct-2507-q4_K_M",
+ "runs": 10,
+ "summary": {
+  "goodbye_ends_call": 0
+ },
+ "detail": {
+  "goodbye_ends_call": [
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, I'll end the call now. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Thank you for calling. Have a great day. Goodbye."
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, ending the call. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, I'll end the call now. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Okay, I'll end the call now. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, I'll end the call now. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, I'll end the call now. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Thank you for calling. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, I'll end the call now. Have a great day!"
+    ]
+   },
+   {
+    "ok": false,
+    "calls": [],
+    "replies": [
+     "Alright, I'll end the call now. Have a great day!"
+    ]
+   }
+  ]
+ }
+}
