@@ -38,12 +38,26 @@ import asyncio
 import json
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 import aiohttp
 
-from bot import MAX_REPLY_TOKENS, OLLAMA_BASE_URL, OLLAMA_MODEL, PIPER_URL, PIPER_VOICE, SYSTEM_PROMPT
+from bot import (
+    MAX_REPLY_TOKENS,
+    OLLAMA_BASE_URL,
+    OLLAMA_MODEL,
+    PIPER_URL,
+    PIPER_VOICE,
+    SYSTEM_PROMPT_TEMPLATE,
+)
 from pipecat.utils.string import match_endofsentence
+
+# Same per-session grounding bot.py itself does - a static prompt with the
+# literal "{current_datetime}" placeholder would make the model guess a date.
+SYSTEM_PROMPT = SYSTEM_PROMPT_TEMPLATE.format(
+    current_datetime=datetime.now().strftime("%A, %d %B %Y, %I:%M %p")
+)
 
 OUT_DIR = Path("test_audio")
 
